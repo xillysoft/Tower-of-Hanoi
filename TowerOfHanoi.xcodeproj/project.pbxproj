@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6167271424CEB93800DE8223 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6167271324CEB93800DE8223 /* AppDelegate.m */; };
+		6167271A24CEB93800DE8223 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6167271924CEB93800DE8223 /* ViewController.m */; };
+		6167271D24CEB93800DE8223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6167271B24CEB93800DE8223 /* Main.storyboard */; };
+		6167271F24CEB93C00DE8223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6167271E24CEB93C00DE8223 /* Assets.xcassets */; };
+		6167272524CEB93C00DE8223 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6167272424CEB93C00DE8223 /* main.m */; };
+		6167272D24CEB9AA00DE8223 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6167272C24CEB9AA00DE8223 /* SceneKit.framework */; };
+		6167273024CEBA8100DE8223 /* HanoiTowerScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6167272F24CEBA8100DE8223 /* HanoiTowerScene.m */; };
+		6167273724D29E8100DE8223 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6167273424D29E8100DE8223 /* snow.png */; };
+		6167273824D29E8100DE8223 /* firework.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6167273524D29E8100DE8223 /* firework.jpeg */; };
+		6167273924D29E8100DE8223 /* firework2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6167273624D29E8100DE8223 /* firework2.png */; };
+		6167273B24D29F8900DE8223 /* image_sequence_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6167273A24D29F8900DE8223 /* image_sequence_2x.png */; };
+		6167276F24DD630400DE8223 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6167277124DD630400DE8223 /* Localizable.strings */; };
+		61CB3CCF24DD70EF00BD4EBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61CB3CD124DD70EF00BD4EBA /* InfoPlist.strings */; };
+		61CB3CD624DD728E00BD4EBA /* LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 61CB3CD524DD728E00BD4EBA /* LaunchScreen.png */; };
+		FE12DF1A24CEF16F008CA31F /* HanoiMove.m in Sources */ = {isa = PBXBuildFile; fileRef = FE12DF1924CEF16F008CA31F /* HanoiMove.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6167270F24CEB93800DE8223 /* Tower of Hanoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tower of Hanoi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6167271224CEB93800DE8223 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6167271324CEB93800DE8223 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6167271824CEB93800DE8223 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6167271924CEB93800DE8223 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6167271C24CEB93800DE8223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6167271E24CEB93C00DE8223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6167272324CEB93C00DE8223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6167272424CEB93C00DE8223 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6167272C24CEB9AA00DE8223 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		6167272E24CEBA8100DE8223 /* HanoiTowerScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HanoiTowerScene.h; sourceTree = "<group>"; };
+		6167272F24CEBA8100DE8223 /* HanoiTowerScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HanoiTowerScene.m; sourceTree = "<group>"; };
+		6167273424D29E8100DE8223 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		6167273524D29E8100DE8223 /* firework.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = firework.jpeg; sourceTree = "<group>"; };
+		6167273624D29E8100DE8223 /* firework2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firework2.png; sourceTree = "<group>"; };
+		6167273A24D29F8900DE8223 /* image_sequence_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_sequence_2x.png; sourceTree = "<group>"; };
+		6167276B24DD614000DE8223 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		6167277024DD630400DE8223 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6167277224DD630900DE8223 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6167277424DD6E8D00DE8223 /* Screenshot_GIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Screenshot_GIF.gif; sourceTree = "<group>"; };
+		61CB3CD024DD70EF00BD4EBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61CB3CD224DD70F600BD4EBA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		61CB3CD324DD723200BD4EBA /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
+		61CB3CD524DD728E00BD4EBA /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen.png; sourceTree = "<group>"; };
+		FE12DF1824CEF16F008CA31F /* HanoiMove.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HanoiMove.h; sourceTree = "<group>"; };
+		FE12DF1924CEF16F008CA31F /* HanoiMove.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HanoiMove.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6167270C24CEB93800DE8223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6167272D24CEB9AA00DE8223 /* SceneKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6167270624CEB93800DE8223 = {
+			isa = PBXGroup;
+			children = (
+				6167277324DD6E7200DE8223 /* Screenshots */,
+				6167271124CEB93800DE8223 /* TowerOfHanoi */,
+				6167271024CEB93800DE8223 /* Products */,
+				6167272B24CEB9A900DE8223 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6167271024CEB93800DE8223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6167270F24CEB93800DE8223 /* Tower of Hanoi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6167271124CEB93800DE8223 /* TowerOfHanoi */ = {
+			isa = PBXGroup;
+			children = (
+				6167277124DD630400DE8223 /* Localizable.strings */,
+				6167273324D29E7600DE8223 /* resources */,
+				6167271224CEB93800DE8223 /* AppDelegate.h */,
+				6167271324CEB93800DE8223 /* AppDelegate.m */,
+				6167271824CEB93800DE8223 /* ViewController.h */,
+				6167271924CEB93800DE8223 /* ViewController.m */,
+				FE12DF1824CEF16F008CA31F /* HanoiMove.h */,
+				FE12DF1924CEF16F008CA31F /* HanoiMove.m */,
+				6167271B24CEB93800DE8223 /* Main.storyboard */,
+				6167272E24CEBA8100DE8223 /* HanoiTowerScene.h */,
+				6167272F24CEBA8100DE8223 /* HanoiTowerScene.m */,
+				6167271E24CEB93C00DE8223 /* Assets.xcassets */,
+				6167272324CEB93C00DE8223 /* Info.plist */,
+				61CB3CD124DD70EF00BD4EBA /* InfoPlist.strings */,
+				6167272424CEB93C00DE8223 /* main.m */,
+			);
+			path = TowerOfHanoi;
+			sourceTree = "<group>";
+		};
+		6167272B24CEB9A900DE8223 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6167272C24CEB9AA00DE8223 /* SceneKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6167273324D29E7600DE8223 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				61CB3CD524DD728E00BD4EBA /* LaunchScreen.png */,
+				6167273524D29E8100DE8223 /* firework.jpeg */,
+				6167273624D29E8100DE8223 /* firework2.png */,
+				6167273424D29E8100DE8223 /* snow.png */,
+				6167273A24D29F8900DE8223 /* image_sequence_2x.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6167277324DD6E7200DE8223 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				6167277424DD6E8D00DE8223 /* Screenshot_GIF.gif */,
+				61CB3CD324DD723200BD4EBA /* Screenshot.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6167270E24CEB93800DE8223 /* TowerOfHanoi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6167272824CEB93C00DE8223 /* Build configuration list for PBXNativeTarget "TowerOfHanoi" */;
+			buildPhases = (
+				6167270B24CEB93800DE8223 /* Sources */,
+				6167270C24CEB93800DE8223 /* Frameworks */,
+				6167270D24CEB93800DE8223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TowerOfHanoi;
+			productName = test_HanoiTower;
+			productReference = 6167270F24CEB93800DE8223 /* Tower of Hanoi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6167270724CEB93800DE8223 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Zhao Xiaojian";
+				TargetAttributes = {
+					6167270E24CEB93800DE8223 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6167270A24CEB93800DE8223 /* Build configuration list for PBXProject "TowerOfHanoi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 6167270624CEB93800DE8223;
+			productRefGroup = 6167271024CEB93800DE8223 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6167270E24CEB93800DE8223 /* TowerOfHanoi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6167270D24CEB93800DE8223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6167273924D29E8100DE8223 /* firework2.png in Resources */,
+				6167273824D29E8100DE8223 /* firework.jpeg in Resources */,
+				6167273724D29E8100DE8223 /* snow.png in Resources */,
+				6167273B24D29F8900DE8223 /* image_sequence_2x.png in Resources */,
+				6167276F24DD630400DE8223 /* Localizable.strings in Resources */,
+				61CB3CD624DD728E00BD4EBA /* LaunchScreen.png in Resources */,
+				6167271F24CEB93C00DE8223 /* Assets.xcassets in Resources */,
+				61CB3CCF24DD70EF00BD4EBA /* InfoPlist.strings in Resources */,
+				6167271D24CEB93800DE8223 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6167270B24CEB93800DE8223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6167271A24CEB93800DE8223 /* ViewController.m in Sources */,
+				6167271424CEB93800DE8223 /* AppDelegate.m in Sources */,
+				FE12DF1A24CEF16F008CA31F /* HanoiMove.m in Sources */,
+				6167273024CEBA8100DE8223 /* HanoiTowerScene.m in Sources */,
+				6167272524CEB93C00DE8223 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6167271B24CEB93800DE8223 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6167271C24CEB93800DE8223 /* Base */,
+				6167276B24DD614000DE8223 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6167277124DD630400DE8223 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6167277024DD630400DE8223 /* en */,
+				6167277224DD630900DE8223 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		61CB3CD124DD70EF00BD4EBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61CB3CD024DD70EF00BD4EBA /* en */,
+				61CB3CD224DD70F600BD4EBA /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6167272624CEB93C00DE8223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6167272724CEB93C00DE8223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6167272924CEB93C00DE8223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTZ97ECN57;
+				INFOPLIST_FILE = TowerOfHanoi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitewhalesoft.TowerofHanoi;
+				PRODUCT_NAME = "Tower of Hanoi";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6167272A24CEB93C00DE8223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTZ97ECN57;
+				INFOPLIST_FILE = TowerOfHanoi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitewhalesoft.TowerofHanoi;
+				PRODUCT_NAME = "Tower of Hanoi";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6167270A24CEB93800DE8223 /* Build configuration list for PBXProject "TowerOfHanoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6167272624CEB93C00DE8223 /* Debug */,
+				6167272724CEB93C00DE8223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6167272824CEB93C00DE8223 /* Build configuration list for PBXNativeTarget "TowerOfHanoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6167272924CEB93C00DE8223 /* Debug */,
+				6167272A24CEB93C00DE8223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6167270724CEB93800DE8223 /* Project object */;
+}
